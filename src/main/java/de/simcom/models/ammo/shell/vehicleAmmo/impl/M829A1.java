@@ -41,7 +41,7 @@ public class M829A1 implements VehicleAmmo {
 	}
 
 	public Type getType() {
-		return Type.AMMUNITION;
+		return Type.AMMO;
 	}
 
 }

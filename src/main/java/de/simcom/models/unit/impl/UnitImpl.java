@@ -224,45 +224,14 @@ public class UnitImpl implements Unit {
 
 	@Override
 	public void setType(String type) {
-
-		switch (type) {
-		case "air": {
-			this.type = Type.AIR;
-			break;
-		}
-		case "helicopter": {
-			this.type = Type.HELICOPTER;
-			break;
-		}
-		case "infantry": {
-			this.type = Type.INFANTRY;
-			break;
-		}
-		case "logistic": {
-			this.type = Type.LOGISTIC;
-			break;
-		}
-		case "naval": {
-			this.type = Type.NAVAL;
-			break;
-		}
-		case "supports": {
-			this.type = Type.SUPPORTS;
-			break;
-		}
-		case "tank": {
-			this.type = Type.TANK;
-			break;
-		}
-		case "transport": {
-			this.type = Type.TRANSPORT;
-			break;
-		}
-		case "vehicle": {
-			this.type = Type.VEHICLE;
-			break;
-		}
-		}
-
+		/*
+		 * switch (type) { case "air": { this.type = Type.AIR; break; } case
+		 * "helicopter": { this.type = Type.HELICOPTER; break; } case "infantry": {
+		 * this.type = Type.INFANTRY; break; } case "logistic": { this.type =
+		 * Type.LOGISTIC; break; } case "naval": { this.type = Type.NAVAL; break; } case
+		 * "supports": { this.type = Type.SUPPORTS; break; } case "tank": { this.type =
+		 * Type.TANK; break; } case "transport": { this.type = Type.TRANSPORT; break; }
+		 * case "vehicle": { this.type = Type.VEHICLE; break; } }
+		 */
 	}
 }
